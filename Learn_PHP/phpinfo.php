@@ -10,6 +10,12 @@
 
 <body>
     <?php phpinfo() ?>
+    <?php
+    $x = 6;
+    $y = 7;
+    $sum = $x + $y;
+    echo $sum;
+    ?>
 </body>
 
 </html>
