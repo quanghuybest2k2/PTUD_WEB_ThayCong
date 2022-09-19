@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đặt mua sách</title>
+  </head>
+
+  <body>
+    <form action="./xuLy.php" method="POST">
+      <table style="border: 0px">
+        <tr style="background: #cccccc">
+          <td style="width: 200px; text-align: center">Tên sách</td>
+
+          <td style="width: 100px; text-align: center">Số lượng</td>
+        </tr>
+
+        <tr>
+          <td>Tự học làm web 1 - HTML</td>
+
+          <td>
+            <input type="number" minlength="1" maxlength="200" name="HTMLsoLuong" size="6" maxlength="3" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>Tự học làm web 2 - CSS</td>
+
+          <td>
+            <input type="number" minlength="1" maxlength="200" name="CSSsoLuong" size="6" maxlength="3" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>Tự học làm web 3 - JavaScript</td>
+
+          <td>
+            <input type="number" minlength="1" maxlength="200" name="JSsoLuong" size="6" maxlength="3" />
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2" style="text-align: center">
+            <input type="submit" value="Đặt mua" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
