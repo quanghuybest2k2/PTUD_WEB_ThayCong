@@ -34,7 +34,7 @@ function ThuVanMay($r)
 <body>
     <h1><?php DienVien("Inoue Rikako", 1998) ?></h1>
     <p><?php $r = rand(0, 10);
-        echo $r . "<br/>";
+        echo "Số được rand ngẫu nhiên là: " . $r . "<br/>";
         ThuVanMay($r) ?>
     </p>
 </body>
